@@ -1,18 +1,16 @@
-import '../App.css';
-
-
 export const Image = ({ src, alt, borderRadius, width, height, fit }) => {
   return (
-    <div>
+    <div style={{ margin: '30px', width: 'fit-content' }}>
       <img
-        style={{
-          borderRadius: borderRadius || "0",
-          width: width || "auto",
-          height: height || "auto",
-          objectFit: fit || "unset",
-        }}
+        data-testId='imagetag'
         src={src}
         alt={alt}
+        style={{
+          borderRadius: borderRadius,
+          width: width,
+          height: height,
+          fit: fit,
+        }}
       />
     </div>
   );
