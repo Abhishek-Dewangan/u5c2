@@ -1,5 +1,5 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen } from '@testing-library/react';
 
-test("Fake assertion", () => {
+test('Fake assertion', () => {
   expect(1).toBe(1);
 });

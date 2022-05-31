@@ -1,0 +1,7 @@
+.pageContainer{
+    display: flex;
+}
+.selected{
+ border-color: blue;
+ font-size: 30px;
+}
